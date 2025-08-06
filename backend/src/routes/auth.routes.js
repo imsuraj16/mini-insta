@@ -1,9 +1,10 @@
 const express = require('express')
-const { registerUser } = require('../controller/auth.constroller')
+const { registerUser, loginUser } = require('../controller/auth.constroller')
 
 const router = express.Router()
 
 router.post('/register',registerUser)
+router.post('/login',loginUser)
 
 
 
