@@ -4,6 +4,7 @@ import Explore from '../pages/Explore'
 import CreatePost from '../pages/CreatePost'
 import Login from '../pages/Login'
 import Register from '../pages/Register'
+import Profile from '../pages/Profile'
 
 const Mainroutes = () => {
   return (
@@ -12,6 +13,7 @@ const Mainroutes = () => {
       <Route path='/createpost' element = {<CreatePost/>}/>
       <Route path='/login' element = {<Login/>}/>
       <Route path='/register' element = {<Register/>}/>
+      <Route path='/profile' element = {<Profile/>}/>
     </Routes>
   )
 }
